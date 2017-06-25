@@ -1,0 +1,68 @@
+.invest_sidebar{
+  width:50%;
+  background-color: #679023;
+  color:#fff;
+  height: 300px;
+  padding: 10px 50px;
+  text-align: center;
+  box-shadow: 4px 4px 4px green ;
+  box-radius:15px;
+  border: 1px;
+  float:left;
+}
+.invest_sidebar ul li {
+  list-style: none;
+    font-size: bold;
+}
+.invest_sidebar li a {
+  color:#fff;
+  list-style: none;
+    font-size: bold;
+
+}
+.invest_sidebar ul li a {
+    text-decoration: none;
+}
+.invest_user_icon {
+  width: 70px;
+  height:70px;
+  border-radius: 100%;
+  background-color:green;
+  position: absolute;
+
+
+}
+.member_profile{
+  position:relative;
+  top: -40px;
+  left:-15px;
+}
+.invest_user_details{
+  width:50%;
+
+}
+.invest_profile{
+  float:right;
+  width:50%;
+  background-color: #679023;
+  color:#fff;
+  height: 300px;
+  padding: 10px 50px;
+  text-align: center;
+  box-shadow: 4px 4px 4px green ;
+  box-radius:15px;
+
+}
+.invest_profile_wrapper::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.nav-pills{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.col-md-3 h3{
+  text-transform: uppercase;
+  border-bottom: 1px solid green;
+}
